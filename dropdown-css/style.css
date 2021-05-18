@@ -1,0 +1,26 @@
+.input {
+  width: 0;
+  height: 0;
+}
+
+.dropdown {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 0;
+  transition: height 0.5s;
+}
+
+.dropdown-contents {
+  display: none;
+}
+
+.input:checked + .label {
+  background-color: blue;
+}
+
+.input:checked ~ .dropdown {
+  height: 100px;
+}
+
+.input:checked ~ .dropdown > .dropdown-contents {
+  display: block;
+}
