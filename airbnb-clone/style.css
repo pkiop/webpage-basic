@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: aqua;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 10px;
+}
+
+.nav {
+  display: flex;
+  /* flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /* flex-basis: 140px;
+  flex-grow: 1;
+  flex-shrink: 0; */
+}
+
+.nav-text {
+  padding: 10px 12px;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  /* flex-basis: 140px; */
+  /* flex-grow: 1;
+  flex-shrink: 0; */
+}
+
+.menu-text {
+  padding: 10px;
+}
+
+.user-menu {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  padding: 2px 10px;
+}
+
+.earth,
+.hambug {
+  width: 16px;
+  height: 16px;
+}
+
+.user {
+  width: 30px;
+  height: 30px;
+  margin-left: 6px;
+}
